@@ -1,0 +1,45 @@
+/* Clases */
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: #13A4A4;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Pseudo clases
+Se llaman con : */
+.main-nav__item a:hover {
+    color: darkblue;
+}
+
+.main-nav__item a:active {
+    color: red;
+}
+
+/* Pseudo elementos
+Se llaman con :: */
+.main-nav__item a::after {
+    content: " |";
+}
+
+/* 
+Pseudo clases
+:class
+Define el estilo de un estado especial de un elemento (hover/active).
+
+Pseudo elementos
+::element
+Define el estilo de una parte especifica de un elemento (after).
+*/
