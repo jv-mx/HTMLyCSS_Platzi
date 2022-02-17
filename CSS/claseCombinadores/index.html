@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinadores</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1>Hermano adyacente <br> (Adjacent sibling)</h1>
+        <p>Este combinador aplica la regla de estilo al elemento que se encuentre
+            mas cercano a su referente. <br>
+            En el siguiente ejemplo a todas las etiquetas p cercanas a un h2. <br>
+            <br>
+            h2 + p {<br>
+                color: red;<br>
+            }
+        </p>
+
+        <h2>Soy un h2</h2>
+        <p>Soy un parrafo</p>
+        <h2>Soy otro h2</h2>
+        <h3>Soy un h3</h3>
+        <p>Soy un parrafo</p>
+        <h2>Soy otro h2</h2>
+        <p>Soy un parrafo</p><br>
+    </div>
+
+    <div>
+        <h1>Hermano General <br> (General sibling)</h1>
+        <p>Este combinador da formato a todas las etiquetas que existan a la misma linea,
+            como hermanos.
+        </p>
+        <h2>Soy un h2</h2>
+        <p>Soy un parrafo</p>
+        <h2>Soy un h2</h2>
+        <h3>Soy un h3</h3>
+        <p>Soy un parrafo</p>
+
+
+    </div>
+</body>
+</html>
