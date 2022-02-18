@@ -38,8 +38,55 @@
         <h2>Soy un h2</h2>
         <h3>Soy un h3</h3>
         <p>Soy un parrafo</p>
+    </div>
 
+    <div>
+    <section>
+        <h1>Hijo Directo <br>(Child)</h1>
+        <p>Este combinador aplica la regla de estilo a los elementos que sean
+        hijos directos del objeto indicado. <br> Se expresa de la siguiente manera: <br>
+        <br>
+        div > p {<br>
+            color: red;<br>
+        }
+    </section>
+        </p>
+        <article>
+            <p>Soy un texto</p>
+        </article>
+        <article>
+            <p>Soy un texto</p>
+        </article>
+        <section>
+            <div>
+                <p>Soy un texto</p>
+            </div>
+        </section>
+        <p>Soy un texto</p>
+    </div>
 
+    <section>
+        <h1>Descendiente<br>(DEscendant)</h1>
+        <p>Este combinador es el mas comun y aplica las reglas de estilo a los
+            elementos dentro de otros <br> Se expresa de la siguiente manera: <br>
+        <br>
+        div p {<br>
+            color: red;<br>
+        }
+    </section>
+        </p>
+        <article>
+            <p>Soy un texto</p>
+        </article>
+        <article>
+            <p>Soy un texto</p>
+        </article>
+        <section>
+            <div>
+                <p>Soy un texto</p>
+            </div>
+        </section>
+        <p>Soy un texto</p>
     </div>
 </body>
 </html>
